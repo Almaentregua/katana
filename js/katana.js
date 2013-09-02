@@ -9,6 +9,7 @@ var katana = {
 
 		return e;
 	},
+	//comentario
 	obt: function(e){
 		if(typeof e == "string"){
 			return katana.extend(document.getElementById(e), katana);	
